@@ -18,7 +18,8 @@ const userSchema = new mongoose.Schema(
     },
     profilePicture: {
       type: String,
-      default: "https://images5.alphacoders.com/131/1317711.jpeg",
+      default:
+        "https://th.bing.com/th/id/OIP.0miyOJMoCeGLhaeCAYQiDwHaHa?rs=1&pid=ImgDetMain",
     },
   },
   { timestamps: true }
