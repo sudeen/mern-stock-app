@@ -251,6 +251,7 @@ export default function DashProfile() {
           Sign Out
         </span>
       </div>
+
       {updateUserSuccess && (
         <Alert color="success" className="mt-5">
           {updateUserSuccess}
