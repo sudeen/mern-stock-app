@@ -37,6 +37,7 @@ body {
   text-decoration: underline;
 }
 
+/* .dark is to style in the dark mode */
 .dark .post-content a {
   color: red;
 }
