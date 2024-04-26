@@ -7,7 +7,7 @@ import { Button, Textarea } from "flowbite-react";
 export default function Comment({ comment, onLike, onEdit, onDelete }) {
   const [user, setUser] = useState({});
   const [isEditing, setIsEditing] = useState(false);
-  const [editedContent, setEditedContent] = useState(comment.content);
+  const [editedContent, setEditedContent] = useState(comment.content); // content = comment
   const { currentUser } = useSelector((state) => state.user);
 
   useEffect(() => {
