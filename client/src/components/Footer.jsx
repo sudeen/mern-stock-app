@@ -10,10 +10,7 @@ import {
 /* FOOTER FUNCTION NAME CANNOT BE FOOTER */
 export default function FooterCom() {
   return (
-    <Footer
-      container
-      className="border border-t-8 border-teal-500  bottom-0 start-0 z-50 flex justify-between w-full"
-    >
+    <Footer container className="border border-t-8 border-teal-500">
       <div className="w-full max-w-7xl mx-auto">
         <div className="grid w-full justify-between sm:flex md:grid-cols-1">
           <div className="mt-5">
