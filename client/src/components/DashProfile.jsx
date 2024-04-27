@@ -1,6 +1,5 @@
 import { Alert, Button, Modal, TextInput } from "flowbite-react";
 import { useEffect, useRef, useState } from "react";
-import { useSelector } from "react-redux";
 import {
   getDownloadURL,
   getStorage,
@@ -19,7 +18,7 @@ import {
   deleteUserFailure,
   signoutSuccess,
 } from "../redux/user/userSlice";
-import { useDispatch } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 import { HiOutlineExclamationCircle } from "react-icons/hi";
 import { Link } from "react-router-dom";
 
